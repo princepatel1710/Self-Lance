@@ -86,7 +86,9 @@
                 android:text="Develop an application
                 Description...."
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/colorDark"
+                />
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -122,7 +124,9 @@
                 android:text="Develop a Website
                 Description...."
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/colorDark"
+                />
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +160,9 @@
                 android:text="Develop an Application
                 Description...."
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/colorDark"
+                />
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -191,7 +197,9 @@
                     android:text="Develop an Application
                     Description...."
                     android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDark"
+                    />
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -228,7 +236,9 @@
                     android:text="Develop an Application
                     Description...."
                     android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDark"
+                    />
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -264,7 +274,8 @@
                     android:text="Develop an Website
                     Description...."
                     android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDark" />
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
