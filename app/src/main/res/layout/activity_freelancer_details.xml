@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="259dp"
             android:fontFamily="sans-serif-light"
-            android:text="Name
+            android:text="Sarah
                                                                                                                                                                                                                      .                                                                   About                                                            Lorem ispum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.                                                          .                                                             Skills                                                                                                    .                                            Experience"
             android:textSize="20sp"
             android:textStyle="bold"

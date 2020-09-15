@@ -82,10 +82,41 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Sarah"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -117,10 +148,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Name"
+                android:text="Jean"
                 android:textSize="18sp"
                 android:textColor="@color/colorDark"
                 android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -152,10 +214,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Name"
+                android:text="Peter"
                 android:textSize="18sp"
                 android:textColor="@color/colorDark"
                 android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -187,10 +279,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Sam"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -222,10 +344,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Abhi"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -257,10 +409,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Shahid"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -292,10 +474,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Jia"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -327,10 +539,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Natasha"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starW"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -362,10 +604,40 @@
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Name"
+                    android:text="Sahar"
                     android:textSize="18sp"
                     android:textColor="@color/colorDark"
                     android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/starB"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
