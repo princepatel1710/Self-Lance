@@ -86,6 +86,7 @@
                 android:text="Develop an application
                 Description...."
                 android:textSize="18sp"
+
                 android:textStyle="bold"
                 android:textColor="@color/colorDark"
                 />
