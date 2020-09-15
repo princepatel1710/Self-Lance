@@ -80,7 +80,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -115,7 +115,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="35dp"
                 android:fontFamily="sans-serif-light"
                 android:text="Name"
                 android:textSize="18sp"
@@ -150,7 +150,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="35dp"
                 android:fontFamily="sans-serif-light"
                 android:text="Name"
                 android:textSize="18sp"
@@ -185,7 +185,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -220,7 +220,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -255,7 +255,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -290,7 +290,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -325,7 +325,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
@@ -360,7 +360,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="35dp"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
                     android:textSize="18sp"
