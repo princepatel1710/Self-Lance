@@ -1,11 +1,12 @@
 package com.example.self_lance;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class signup extends AppCompatActivity {
     Button signup_button;
@@ -20,7 +21,8 @@ public class signup extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(getApplicationContext(),login.class));
+                startActivity(new Intent(getApplicationContext(), login.class));
+                Toast.makeText(signup.this, "Signup Successfully", Toast.LENGTH_SHORT).show();
            /* if you want to finish the first activity then just call
             finish(); */
             }

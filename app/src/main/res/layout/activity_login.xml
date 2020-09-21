@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Self-Lance"
+                android:text="@string/self_lance"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
@@ -57,7 +57,8 @@
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:src="@drawable/logo"
-                    android:transitionName="sharedTranaction" />
+                    android:transitionName="sharedTranaction"
+                    android:contentDescription="@string/todo" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tilEmail"
@@ -72,7 +73,8 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_enter_email"
                         android:inputType="textEmailAddress"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:autofillHints="" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -91,7 +93,8 @@
                         android:hint="@string/enter_password"
                         android:imeOptions="actionDone"
                         android:inputType="textPassword"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:autofillHints="" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -117,7 +120,7 @@
                     android:layout_marginBottom="16dp"
                     android:backgroundTint="@color/colorButton"
                     android:minHeight="60dp"
-                    android:text="Log In"
+                    android:text="@string/log_in"
                     android:textAppearance="@style/TextAppearance.AppCompat.Button"
                     android:textSize="22sp"
                     android:textStyle="bold"

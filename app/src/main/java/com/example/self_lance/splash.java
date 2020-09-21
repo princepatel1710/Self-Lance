@@ -1,7 +1,5 @@
 package com.example.self_lance;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,6 +7,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class splash extends AppCompatActivity {
 
@@ -24,8 +24,8 @@ public class splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         //animation
-        pushdown= AnimationUtils.loadAnimation(this,R.anim.push_down);
-        pushright= AnimationUtils.loadAnimation(this,R.anim.push_right);
+        pushdown= AnimationUtils.loadAnimation(this, R.anim.push_down);
+        pushright= AnimationUtils.loadAnimation(this, R.anim.push_right);
 
         //hooks
         splash_image=findViewById(R.id.logo);
@@ -38,7 +38,7 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(splash.this,login.class);
+                Intent intent=new Intent(splash.this, login.class);
                 startActivity(intent);
                 finish();
             }
