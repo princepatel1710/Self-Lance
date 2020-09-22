@@ -22,50 +22,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Toolbar toolbar;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button looking_for_job_btn = (Button) findViewById(R.id.btnLookingForAjob);
-        Button hire_a_freelancer_btn = (Button) findViewById(R.id.btnHireAfreelancer);
-
-
 
         {
-            hire_a_freelancer_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(getApplicationContext(), HireAFreelancer.class));
-                }
-            });
-
-            looking_for_job_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(getApplicationContext(), Looking_for_job.class));
-           /* if you want to finish the first activity then
-            finish(); */
-                }
-            });
-
             // Navigation bar
-            drawerLayout=findViewById(R.id.drawer_layout);
-            navigationView=findViewById(R.id.nav_view);
-           // toolbar=findViewById(R.id.toolbar);
+            drawerLayout = findViewById(R.id.drawer_layout);
+            navigationView = findViewById(R.id.nav_view);
+
 
             //Toolbar
-           toolbar= (Toolbar) findViewById(R.id.toolbar);
+            toolbar = (Toolbar) findViewById(R.id.toolbar);
             setSupportActionBar(toolbar);
             //toggle
 
-
-            //Navigation Drawer Menu
-           // ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.naigation_drawer_open,R.string.naigation_drawer_close);
-            //
-            //
-            toggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+            toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
             drawerLayout.addDrawerListener(toggle);
             toggle.syncState();
             navigationView.setNavigationItemSelectedListener(this);
@@ -74,13 +47,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+
     @Override
     public void onBackPressed() {
 
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
-        }
-        else {
+        } else {
 
         }
         super.onBackPressed();
@@ -89,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.nav_home:
                 break;
             case R.id.nav_freelancer:
@@ -98,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_profile:
                 startActivity(new Intent(getApplicationContext(), profile.class));
                 break;
-                case R.id.nav_chat:
+            case R.id.nav_chat:
                 startActivity(new Intent(getApplicationContext(), chat.class));
                 break;
             case R.id.nav_job:
@@ -112,4 +85,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }
