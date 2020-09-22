@@ -28,270 +28,90 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098"
         app:srcCompat="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="498dp"
+        android:text="Looking For A Job"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
-    <androidx.cardview.widget.CardView
+    <View
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="1dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="250dp"
         android:layout_marginRight="20dp"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">        </RelativeLayout>
+        android:background="@color/colorLine" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Develop an application"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorDark"
+        />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="54dp"
-                android:layout_marginTop="20dp"
-                android:text="Looking For A Job"
-                android:textAllCaps="true"
-                android:textColor="@color/colorDark"
-                android:textSize="28sp"
-                android:textStyle="bold" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="20dp"
+        android:text="$"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="@color/colorDark"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:gravity="end"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorDark" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Project Budget"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorDark"
+        />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:fontFamily="sans-serif-light"
-                android:text="Develop an application
-                Description....                                                     Project Guidance                                       Budget
-                                                                          "
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorDark"
-                />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="$"
-                android:textAlignment="textEnd"
-                android:textSize="18sp"
-                android:textColor="@color/colorDark"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif-light"
-                android:layout_alignParentRight="true"
-                android:gravity="end"/>
-            </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Develop an website
-                Description....                                                     Project Guidance                                       Budget
-                                                                          "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorDark"
-                    />
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="$"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/colorDark"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end"/>
-            </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Develop an application
-                Description...                                                     Project Guidance                                       Budget
-                                                                          "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorDark"
-                    />
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="$"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/colorDark"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end"/>
-            </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Develop an application
-                Description....                                                     Project Guidance                                       Budget
-                                                                          "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorDark"
-                    />
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="$"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/colorDark"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end"/>
-            </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Develop an application
-                Description                                                     Project Guidance                                       Budget
-                                                                          "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorDark"
-                    />
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="0$"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/colorDark"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end"/>
-            </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/colorLine" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Develop an website
-                Description                                                     Project Guidance                                       Budget
-                                                                          "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorDark"
-                    />
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="0$"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/colorDark"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end"/>
-            </RelativeLayout>
-
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
 </RelativeLayout>

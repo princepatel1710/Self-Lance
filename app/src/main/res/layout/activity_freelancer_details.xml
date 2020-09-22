@@ -93,7 +93,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/colorDark" />
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:layout_width="match_parent"
         android:layout_height="259dp"
         android:layout_marginTop="360dp"

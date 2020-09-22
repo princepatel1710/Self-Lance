@@ -16,12 +16,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="125dp"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginEnd="118dp"
-        android:layout_marginRight="118dp"
-        android:layout_marginBottom="541dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="562dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_marginTop="180dp"
         android:layout_marginRight="20dp"
         app:cardCornerRadius="5dp"
-        app:cardElevation="100dp"
+        app:cardElevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,31 +91,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -157,31 +157,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
 
             <TextView
                 android:layout_width="fill_parent"
@@ -223,31 +223,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -288,31 +288,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -353,31 +353,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -418,31 +418,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -483,31 +483,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -548,31 +548,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starW"/>
+                    app:srcCompat="@drawable/starwhite"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -613,31 +613,31 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="208dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="165dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginLeft="85dp"
                     android:layout_marginTop="5dp"
-                    app:srcCompat="@drawable/starB"/>
+                    app:srcCompat="@drawable/starblack"/>
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
