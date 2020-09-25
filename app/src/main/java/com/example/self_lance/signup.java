@@ -159,6 +159,9 @@ public class signup extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
         if (user != null) {
+            prgDialog.setMessage("Please Wait...");
+            prgDialog.setCancelable(false);
+            prgDialog.show();
             user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
@@ -258,7 +261,7 @@ public class signup extends AppCompatActivity {
     public void SaveData() {
 
         String id = mAuth.getCurrentUser().getUid();
-        UserInformation info = new UserInformation(email, password, firstName, id, lastName);
+        UserInformation info = new UserInformation(email, password, firstName, id, lastName,userName);
 
         databaseUser.child(id).setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

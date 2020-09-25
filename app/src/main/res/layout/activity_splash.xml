@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".splash"
 
-    android:background="@drawable/side_nav_bar">
+    android:background="@color/colorYellow">
 
 
     <ImageView
