@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/lookingforjob"
         android:layout_width="234dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"
@@ -18,10 +18,10 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/projectdetails"
         android:layout_width="235dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"
@@ -29,12 +29,13 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.864" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/mainlogo"
         android:layout_width="150dp"
         android:layout_height="126dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +43,31 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintVertical_bias="0.125"
         app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/lookingforajob"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/lookingforajobb" />
+
+    <ImageView
+        android:id="@+id/hirefreelancer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        app:srcCompat="@drawable/jobinterview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

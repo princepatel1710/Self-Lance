@@ -1,89 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FreelancerDetails">
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="167dp"
-        android:layout_height="133dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="125dp"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginEnd="118dp"
-        android:layout_marginRight="118dp"
-        android:layout_marginBottom="541dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
-        app:srcCompat="@drawable/logo" />
-
-    <androidx.cardview.widget.CardView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="190dp"
-        android:layout_marginRight="20dp"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:context=".FreelancerDetails">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="126dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="133dp"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="126dp"
+            android:layout_marginRight="126dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.127"
+            app:srcCompat="@drawable/logo" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginLeft="86dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginRight="69dp"
+            android:layout_marginBottom="510dp"
+            android:text="Hire A FreeLancer"
+            android:textAllCaps="true"
+            android:textColor="@color/colorDark"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="54dp"
-        android:layout_marginTop="20dp"
-        android:text="Hire A FreeLancer"
-        android:textAllCaps="true"
-        android:textColor="@color/colorDark"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="20dp"
-        android:background="@color/colorLine" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="10dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorLine" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="259dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="20dp"
             android:fontFamily="sans-serif-light"
-            android:text="Sarah
-                                                                                                                                                                                                                     .                                                                   About                                                            Lorem ispum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.                                                          .                                                             Skills                                                                                                    .                                            Experience"
+            android:text="Sarah"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/colorDark"
@@ -92,16 +77,56 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="20dp"
             android:text="$"
             android:textAlignment="textEnd"
             android:textSize="18sp"
             android:textColor="@color/colorDark"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
-            android:layout_alignParentRight="true"
             android:gravity="end"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="About"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorDark" />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorDark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Skills"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorDark"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Experience"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorDark"
+            />
     </RelativeLayout>
-    </LinearLayout>
-    </androidx.cardview.widget.CardView>
-</RelativeLayout>
-
+</ScrollView>
