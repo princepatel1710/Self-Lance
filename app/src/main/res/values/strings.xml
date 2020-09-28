@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Self-Lance</string>
+
+    <string name="resetTitle">Forgot Password ?</string>
+    <string name="resetDescription">We Just need Your Registerted Email Id for \n Sending an Email to Reset Password.</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <string name="hint_enter_email">Enter Email</string>
+    <string name="btn_login">Login</string>
+
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirmation_password">Enter Confirm Password</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="hire_freelance_title">Hire A FreeLancer</string>
+    <string name="name">Name</string>
+
+    <string name="looking_for_a_job">Looking For A Job</string>
+    <string name="hire_a_freelancer">Hire a freelancer</string>
+
+    <string name="self_lance">Self-Lance</string>
+    <string name="log_in">Log In</string>
+    <string name="todo">TODO</string>
+</resources>
