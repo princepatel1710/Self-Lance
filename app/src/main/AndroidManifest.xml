@@ -9,17 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FreelancerDetails"/>
+        <activity android:name=".completeProfile"></activity>
+        <activity android:name=".FreelancerDetails" />
         <activity android:name=".HireAFreelancer" />
         <activity android:name=".LookingForJobDescription" />
         <activity android:name=".Looking_for_job" />
         <activity android:name=".MainActivity" />
         <activity android:name=".forgot_password" />
-        <activity android:name=".login"
+        <activity
+            android:name=".login"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.Splash"/>
+            android:theme="@style/AppTheme.NoActionBar.Splash" />
         <activity android:name=".signup" />
-        <activity android:name=".splash"
+        <activity
+            android:name=".splash"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Splash">
             <intent-filter>

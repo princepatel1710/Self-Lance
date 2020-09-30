@@ -24,4 +24,35 @@
     <string name="self_lance">Self-Lance</string>
     <string name="log_in">Log In</string>
     <string name="todo">TODO</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_looking_for_job">Looking for a job</string>
+    <string name="menu_hire_freelancer">Hire a freelancer</string>
+    <string name="menu_chat">Chat</string>
+    <string name="lbl_hello">Hello</string>
+    <string name="lbl_guest">Guest User</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Open navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_logout">Log out</string>
+    <string name="hint_email">Email</string>
+    <string name="profile_first_name">First Name:</string>
+    <string name="profile_last_name">Last Name:</string>
+    <string name="profile_user_name">User Name:</string>
+    <string name="profile_email">Email:</string>
+    <string name="profile_description">Description:</string>
+    <string name="profile_skills">Choose Skills:</string>
+    <string name="skill_1">Skill-1</string>
+    <string name="skill_2">Skill-2</string>
+    <string name="skill_3">Skill-3</string>
+    <string name="skill_4">Skill-4</string>
+    <string name="skill_5">Skill-5</string>
+    <string name="skill_6">Skill-6</string>
+    <string name="description">Description</string>
+    <string name="menu_complete_profile">Complete Profile</string>
+    <string name="profile_experience">Experience:</string>
+    <string name="hint_enter_experience">Enter Experience</string>
 </resources>

@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button looking_for_job_button = (Button) findViewById(R.id.btnLookingForAjob);
         Button hire_a_freelancer_button = (Button) findViewById(R.id.btnHireAfreelancer);
+        Button Complete_profile = (Button) findViewById(R.id.btncompleteProfile);
 
 
         {
@@ -24,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(getApplicationContext(), HireAFreelancer.class));
+                }
+            });
+           Complete_profile.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(), completeProfile.class));
                 }
             });
 

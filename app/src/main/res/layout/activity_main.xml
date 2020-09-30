@@ -63,6 +63,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.615" />
 
+    <Button
+        android:id="@+id/btncompleteProfile"
+        android:layout_width="235dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_corners"
+        android:text="@string/menu_complete_profile"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHireAfreelancer"
+        app:layout_constraintVertical_bias="0.177" />
+
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="150dp"
