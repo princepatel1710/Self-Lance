@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="uploadcv" type="id" />
+    <item name="projectdetails" type="id" />
 </resources>

@@ -124,6 +124,7 @@
                         app:srcCompat="@drawable/starblack"/>
 
                     <TextView
+                        android:id="@+id/user1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:text=""

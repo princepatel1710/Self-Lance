@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/lookingforjob"
+        android:id="@+id/uploadcv"
         android:layout_width="234dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/uploadcv"
+        android:id="@+id/projectdetails"
         android:layout_width="235dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"

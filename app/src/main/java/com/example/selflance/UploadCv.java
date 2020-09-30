@@ -25,7 +25,6 @@ import java.io.File;
 
 public class UploadCv extends AppCompatActivity {
 private Button SelectBtn;
-private Button PauseBtn;
 private Button CancelBtn;
 private ProgressBar progressBar;
 private StorageTask mStorageTask;
@@ -36,7 +35,6 @@ private final static int FILE_SELECT_CODE = 1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_cv);
         SelectBtn = findViewById(R.id.selectbutton);
-        PauseBtn = findViewById(R.id.pausebutton);
         CancelBtn = findViewById(R.id.cancelbutton);
         progressBar = findViewById(R.id.progressBar);
         mStorageRef = FirebaseStorage.getInstance().getReference();
@@ -45,24 +43,10 @@ private final static int FILE_SELECT_CODE = 1;
             @Override
             public void onClick(View v) {
                 openFileSelector();
-
             }
         });
 
-        PauseBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String btnText = PauseBtn.getText().toString();
 
-                if (btnText.equals("Pause Upload")) {
-                    mStorageTask.pause();
-                    PauseBtn.setText("Resume Upload");
-                } else {
-                    mStorageTask.resume();
-                    PauseBtn.setText("Pause Upload");
-                }
-            }
-        });
         CancelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
