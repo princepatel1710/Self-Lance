@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.provider.OpenableColumns;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -26,6 +27,7 @@ public class UploadCv extends AppCompatActivity {
 private Button SelectBtn;
 private Button PauseBtn;
 private Button CancelBtn;
+private ProgressBar progressBar;
 private StorageTask mStorageTask;
 private final static int FILE_SELECT_CODE = 1;
     private StorageReference mStorageRef;
@@ -36,14 +38,17 @@ private final static int FILE_SELECT_CODE = 1;
         SelectBtn = findViewById(R.id.selectbutton);
         PauseBtn = findViewById(R.id.pausebutton);
         CancelBtn = findViewById(R.id.cancelbutton);
+        progressBar = findViewById(R.id.progressBar);
         mStorageRef = FirebaseStorage.getInstance().getReference();
 
         SelectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openFileSelector();
+
             }
         });
+
         PauseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -116,6 +121,7 @@ private final static int FILE_SELECT_CODE = 1;
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             // Get a URL to the uploaded content
                             Task<Uri> downloadUrl = taskSnapshot.getStorage().getDownloadUrl();
+                            progressBar.setVisibility(View.VISIBLE);
 
                             Toast.makeText(UploadCv.this, "File Uploaded!",
                                     Toast.LENGTH_SHORT).show();
