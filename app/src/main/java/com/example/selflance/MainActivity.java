@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn1 = findViewById(R.id.lookingforjob);
-        btn2 = findViewById(R.id.projectdetails);
+        btn2 = findViewById(R.id.uploadcv);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ProjectDetails.class));
+                startActivity(new Intent(getApplicationContext(), UploadCv.class));
             };
         });
     }}

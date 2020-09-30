@@ -2,6 +2,7 @@ package com.example.selflance;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +26,8 @@ public class RateSelfLance extends AppCompatActivity {
                 String s = String.valueOf(ratingBar.getRating());
                 Toast.makeText(getApplicationContext(),  s+"Star"
             ,Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+
             }
         });
     }
