@@ -36,7 +36,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="118dp"
-        android:layout_marginLeft="118dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="313dp"
         android:layout_marginEnd="114dp"
         android:layout_marginRight="114dp"
@@ -75,6 +75,16 @@
         android:layout_margin="20dp"
         android:orientation="vertical"
         android:padding="10dp">
+
+        <Button
+            android:id="@+id/lookingforajob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corners"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="#FF0000" />
 
         <Button
             android:id="@+id/cancelbutton"
