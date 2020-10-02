@@ -1,5 +1,6 @@
 package com.example.self_lance;
 
+
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -31,6 +32,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
 
 public class signup extends AppCompatActivity {
 
@@ -128,7 +130,7 @@ public class signup extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Log.d("inserted", "user Created");
-                                SaveData();
+
                             }
                         }
                     }).addOnFailureListener(new OnFailureListener() {
@@ -261,7 +263,7 @@ public class signup extends AppCompatActivity {
     public void SaveData() {
 
         String id = mAuth.getCurrentUser().getUid();
-        UserInformation info = new UserInformation(email, password, firstName, id, lastName,userName);
+
 
         databaseUser.child(id).setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

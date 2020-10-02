@@ -1,8 +1,5 @@
 package com.example.self_lance;
 
-import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class LookingForJobDescription extends AppCompatActivity {
 

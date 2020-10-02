@@ -9,22 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.Splash" />
-        <activity android:name=".forgot_password" />
-        <activity android:name=".signup" />
-        <activity android:name=".profile" />
-        <activity android:name=".chat" />
-        <activity android:name=".Looking_for_job" />
-        <activity android:name=".HireAFreelancer" />
-        <activity android:name=".FreelancerDetails" />
-        <activity android:name=".LookingForJobDescription" />
+
         <activity
             android:name=".login"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.Splash" />
+
         <activity
             android:name=".splash"
             android:screenOrientation="portrait"

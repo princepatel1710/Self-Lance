@@ -2,7 +2,7 @@ package com.example.self_lance;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
