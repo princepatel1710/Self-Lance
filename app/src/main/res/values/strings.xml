@@ -43,16 +43,5 @@
     <string name="profile_last_name">Last Name:</string>
     <string name="profile_user_name">User Name:</string>
     <string name="profile_email">Email:</string>
-    <string name="profile_description">Description:</string>
-    <string name="profile_skills">Choose Skills:</string>
-    <string name="skill_1">Skill-1</string>
-    <string name="skill_2">Skill-2</string>
-    <string name="skill_3">Skill-3</string>
-    <string name="skill_4">Skill-4</string>
-    <string name="skill_5">Skill-5</string>
-    <string name="skill_6">Skill-6</string>
-    <string name="description">Description</string>
-    <string name="menu_complete_profile">Complete Profile</string>
-    <string name="profile_experience">Experience:</string>
-    <string name="hint_enter_experience">Enter Experience</string>
+
 </resources>
