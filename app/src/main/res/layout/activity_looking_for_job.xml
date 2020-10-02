@@ -20,8 +20,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginStart="134dp"
-            android:layout_marginLeft="134dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginLeft="132dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="127dp"
             android:layout_marginRight="127dp"
@@ -32,6 +32,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.127"
             app:srcCompat="@drawable/logo" />
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -84,6 +85,7 @@
                     android:layout_marginBottom="10dp">
 
                     <TextView
+                        android:id="@+id/job1"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:fontFamily="sans-serif-light"
