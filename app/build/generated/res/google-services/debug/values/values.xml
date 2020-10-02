@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">924466809933-gnflbj1tulhd0heunsbjkn8o90qqnbmg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://selflancer-ae6cd.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">924466809933</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQZEAFud-iGGSW6HpesW2Q0TimoIf_sCY</string>
+    <string name="google_app_id" translatable="false">1:924466809933:android:51d8cf90cdffb6f9c2e004</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQZEAFud-iGGSW6HpesW2Q0TimoIf_sCY</string>
+    <string name="google_storage_bucket" translatable="false">selflancer-ae6cd.appspot.com</string>
+    <string name="project_id" translatable="false">selflancer-ae6cd</string>
+</resources>
