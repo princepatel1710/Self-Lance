@@ -20,14 +20,34 @@
         android:id="@+id/nav_freelancer"
         android:title="@string/menu_hire_freelancer"
         android:icon="@drawable/ic_menu_freelancer" />
+    <item
+        android:id="@+id/nav_upload_cv"
+        android:title="@string/menu_upload_cv"
+        android:icon="@drawable/upload_cv" />
 
     <item
         android:id="@+id/nav_chat"
         android:title="@string/menu_chat"
         android:icon="@drawable/ic_menu_chat" />
+    <item
+        android:id="@+id/nav_upload_project"
+        android:title="@string/menu_upload_project"
+        android:icon="@drawable/project_upload" />
 
 
+    <item
+        android:id="@+id/nav_complete_profile"
+        android:title="@string/menu_complete_profile"
+        android:icon="@drawable/ic_complete_profile" />
 
+    <item
+        android:id="@+id/nav_about_app"
+        android:title="@string/menu_about_app"
+        android:icon="@drawable/about_us_icon" />
+    <item
+        android:id="@+id/nav_rate_us"
+        android:title="@string/menu_rate_us"
+        android:icon="@drawable/rate_us" />
     <item
         android:id="@+id/nav_logout"
         android:title="@string/menu_logout"

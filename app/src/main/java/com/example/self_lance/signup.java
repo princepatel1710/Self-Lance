@@ -261,7 +261,7 @@ public class signup extends AppCompatActivity {
     public void SaveData() {
 
         String id = mAuth.getCurrentUser().getUid();
-        UserInformation info = new UserInformation(email, password, firstName, id, lastName,userName);
+        UserInformation info = new UserInformation(firstName,lastName,id,password,email,userName);
 
         databaseUser.child(id).setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

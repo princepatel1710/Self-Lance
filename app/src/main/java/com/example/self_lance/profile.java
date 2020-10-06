@@ -20,7 +20,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class profile extends AppCompatActivity {
-    TextView tvFirstName, tvLastName, tvUserName, tvEmail,userProfile;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_profile);
+    }
+}
+
+   /* TextView tvFirstName, tvLastName, tvUserName, tvEmail,userProfile;
 
 
     @Override
@@ -86,4 +93,4 @@ public class profile extends AppCompatActivity {
 
         }
     }
-}
+}*/

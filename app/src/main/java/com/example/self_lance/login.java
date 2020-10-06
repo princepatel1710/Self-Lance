@@ -111,7 +111,9 @@ public class login extends AppCompatActivity implements View.OnClickListener {
                                                     Toast.makeText(login.this, "SuccessFully login", Toast.LENGTH_SHORT).show();
                                                     SharedPreferences pref = getSharedPreferences("app_pref", Context.MODE_PRIVATE);
                                                     pref.edit().putBoolean("is_login", true).apply();
-                                                    startActivity(new Intent(login.this, MainActivity.class));
+                                                    Intent intent = new Intent(login.this, MainActivity.class);
+                                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                    startActivity(intent);
                                                     finish();
                                                 } else {
                                                     final AlertDialog.Builder builder = new AlertDialog.Builder(login.this);

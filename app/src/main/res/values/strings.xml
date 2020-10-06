@@ -37,10 +37,39 @@
     <string name="navigation_drawer_close">Open navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="menu_logout">Log out</string>
+    <string name="menu_logout">Log Out</string>
     <string name="hint_email">Email</string>
     <string name="profile_first_name">First Name:</string>
     <string name="profile_last_name">Last Name:</string>
     <string name="profile_user_name">User Name:</string>
     <string name="profile_email">Email:</string>
+    <string name="profile_description">Description:</string>
+    <string name="profile_skills">Choose Skills:</string>
+    <string name="skill_1">Skill-1</string>
+    <string name="skill_2">Skill-2</string>
+    <string name="skill_3">Skill-3</string>
+    <string name="skill_4">Skill-4</string>
+    <string name="skill_5">Skill-5</string>
+    <string name="skill_6">Skill-6</string>
+    <string name="description">Description</string>
+    <string name="menu_complete_profile">Complete Profile</string>
+    <string name="profile_experience">Experience:</string>
+    <string name="hint_enter_experience">Enter Experience</string>
+    <string name="menu_about_app">About Us</string>
+    <string name="menu_upload_project">Upload Project</string>
+    <string name="menu_upload_cv">Upload Cv</string>
+    <string name="menu_rate_us">Rate Us</string>
+
+
+    <string name="app_feature_about_us">
+        Main features of the Application.\n
+        Login For Client.\n
+        Hire Freelancer.\n
+        Look for the Job.\n
+        Chat.\n
+        Upload CV.\n
+        Upload Project.\n
+        Rate app.\n
+    </string>
+    <string name="app_version_about_us">Version 1.0</string>
 </resources>
